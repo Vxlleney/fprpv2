@@ -56,5 +56,16 @@ function scrollUp(){
 window.addEventListener('scroll', scrollUp)
 
 
-// THEME CHANGER
+// DASHBOARD Modal
+
+const modalDashboard = document.getElementById('modal')
+
+function openModalDashboard() {
+
+    if(modalDashboard.classList.contains('active')) {
+        modalDashboard.classList.remove('active');
+    } else {
+        modalDashboard.classList.add('active');
+    }
+}
 

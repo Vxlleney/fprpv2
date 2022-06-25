@@ -1,0 +1,134 @@
+
+// COLORS LIGHT
+
+$color-2: #df5858;
+$color-1: #f38654;
+$color-3: #b3b3b3;
+$color-4: #ffae00;
+$color-5: #ebebeb;
+$color-7: #383838;
+$color-8: #3b5998;
+
+$bg-dashboard: #ebebeb;
+$bg-nav-dashboard: #df5858;
+$color-bg-3: #10121d;
+
+$color-text-1: #ebebeb;
+$color-text-2: #161927;
+$color-text-3: #929292;
+
+$color-text-footer: #ebebeb;
+$color-text-hover: #df5858;
+
+$color-icon-1: #df5858;
+$color-icon-2: #ebebeb;
+$color-card: #ebebeb;
+$color-scroll: #ebebeb;
+
+$color-hover-btn-menu: #d4d4d4;
+$color-return-menu: #d4d4d4;
+
+$color-css-bg: #3faace;
+$color-html-bg: #f58346;
+$color-js-bg: #f2c21c;
+$color-psd-bg: #81aed3;
+$color-adobexd-bg: #e7a9d9;
+
+$color-css: #2e93b6;
+$color-html: #dc6b2e;
+$color-js: #f2c21c;
+
+$color-discord: #5865F2;
+
+
+
+// POLICES
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+$body-font: 'Poppins', sans-serif;
+
+$w-font-4: 400;
+$w-font-5: 500;
+$w-font-6: 600;
+
+
+// BASE
+
+*, ::before, ::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;
+}
+  
+ul{
+    list-style: none;
+}
+  
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-text-2;
+}
+  
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+// SCROLLBAR
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+  background-color: $color-2;
+}
+
+::-webkit-scrollbar-track:hover{
+    cursor: default;
+}
+ 
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    border: 4px solid rgba(22, 22, 22, 0);
+    background-clip: padding-box;
+    -webkit-border-radius: 10px;
+    background-color: $color-scroll;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+}
+
+// CONTENT
+
+body{
+    background-color: $bg-dashboard;
+    font-family: $body-font;
+    color: $color-text-1;
+
+    nav{
+        width: auto;
+        height: auto;
+        background-color: red;
+
+        .nav-dashboard{
+            width: 100px;
+            height: 100vh;
+            border-radius: 0 25px 25px 0;
+            background-color: red;
+            padding: 10px;
+            
+            img{
+                width: 50px;
+                height: 50px;
+                z-index: 100;
+            }
+        }
+    }
+    
+}

@@ -9,7 +9,7 @@
         <link href="./assets/css/styles.css" rel="stylesheet" id="theme_change"/>
         <link rel="icon" type="image/png" href="./assets/img/icon.png">
     
-        <title>FPRP - Formations</title>
+        <title>FPRP - Devis</title>
         
     </head>
 
@@ -97,146 +97,81 @@
             </div>
         </nav>
 
-        <header class="bg-header">
-            <div class="container-header">
+        <section class="bg-devis">
+            <div class="container-devis">
 
-                <div class="header-left">
-                    <h1>Formation Prévention des Risques Professionnels</h1>
+                    <h1>ENVOYER UN <span>DEVIS</span></h1>
 
-                    <p>La formation n'est pas un luxe, mais une nécessité. <br>
-                        Formez-vous dès maintenant !
+                    <div class="line"></div>
 
-                    </p>
-
-                    <div class="btn-header">
-                        <a class="btn-header-formations" href="">Voir nos formations</a>
-                        <a class="btn-header-fb" href="">Page Facebook</a>
-                    </div>
-                </div>
-
-                <img src="./assets/img/img-header.png" alt="">
-
-            </div>
-        </header>
-
-       
-
-        <section class="bg-sct-2">
-            <div class="container-sct-2">
-
-                <h1><span>Formations</span> réalisées</h1>
-
-                <div class="cards-sct-2">
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-secourisme.png" alt="">
-
-                        <h2>Secourisme</h2>
-                        <p>5 formations disponibles</p>
-
-                        <a href="">
-                            <h3>Voir plus </h3>
-                            <i class="uil uil-arrow-right"></i>
-                    </a>
-                    </div>
-
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-Incendie.png" alt="">
-                        
-                        <h2>Incendie</h2>
-                        <p>2 formations disponibles</p>
-
-                        <a href="">
-                                <h3>Voir plus </h3>
-                                <i class="uil uil-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-asd.png" alt="">
-                        
-                        <h2>Aide Soins Domicile / Entreprise</h2>
-                        <p>2 formations disponibles</p>
-
-                        <a href="">
-                            <h3>Voir plus </h3>
-                            <i class="uil uil-arrow-right"></i>
-                        </a>
-                    </div>
-
-
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-he.png" alt="">
-                        
-                        <h2>Habilitations électriques</h2>
-                        <p>2 formations disponibles</p>
-
-                        <a href="">
-                            <h3>Voir plus </h3>
-                            <i class="uil uil-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-secourisme.png" alt="">
-                        
-                        <h2>Gestes et postures</h2>
-                        <p>0 formations disponibles</p>
-
-                        <a href="">
-                            <h3>Voir plus </h3>
-                            <i class="uil uil-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="item-sct-2">
-                        <img src="./assets/img/img-secourisme.png" alt="">
-                        
-                        <h2>Formations personnalisées</h2>
-                        <p>Sur demande</p>
-
-                        <a href="">
-                            <h3>Voir plus </h3>
-                            <i class="uil uil-arrow-right"></i>
-                    </a>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="bg-sct-1">
-            <div class="container-sct-1">
-
-                <h1>À PROPOS DE <span>FPRP</span> ?</h1>
-
-                <div class="content-sct-1">
-
-                    <div class="img-about">
-                        <img src="./assets/img/ceo-fprp.png" alt="">
-                    </div>
-
-                    <div class="about-fprp">
-                        <div class="about-content-1">
-                            <span>Gérant FPRP</span>
-                            <h2>MICKAËL DUMORTIER</h2>
-                            <div class="line-about-content-1"></div>
-                            <p>Sapeur-Pompier et formateur certifié INRS ayant
-                            une expérience de +10 ans !</p>
+                    <div class="content-devis">
+                        <div class="illustration-formulaire">
+                                <img src="./assets/img/img-devis.png" alt="">
                         </div>
 
-                        <div class="about-content-2">
-                            <span>Organisme de formations</span>
-                            <h2>FORMATION ET PRÉVENTION DES <br>
-                            RISQUES PROFESSIONNELS</h2>
-                            <div class="line-about-content-1"></div>
-                            <p>FPRP est un organisme de formation accéssible pour les entreprises, en 
-                                collectivités ou bien pour le grand public. Nous vous accompagnons 
-                                dans la prévention et la sécurité au quotidien dans le domaine 
-                                professionnel.
-                       </div>
+                        <div class="formulaire">
+                                <form action="route.php" method="post" class="form">
+
+                                    <div class="forms-name">
+                                        <div>
+                                            <label for="">Nom</label>
+                                            <input type="text">
+                                        </div>
+                                        <div>
+                                            <label for="">Prénom</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="forms-mail">
+                                        <label for="">Adresse Email</label>
+                                        <input type="email" name="" id="">
+                                    </div>
+
+                                    <div class="forms-phone">
+                                        <label for="">Téléphone</label>
+                                        <input type="tel" name="" id="">
+                                    </div>
+
+                                    <div class="forms-adresse">
+                                        <div>
+                                            <label for="">Adresse</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="forms-villecp">
+                                        <div>
+                                            <label for="">Ville</label>
+                                            <input type="text">
+                                        </div>
+
+                                        <div>
+                                            <label for="">Code Postal</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="forms-entreprise">
+                                        <div>
+                                            <label for="">Nom Entreprise</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <div class="forms-formations">
+                                        <div>
+                                            <label for="">Formation souhaitée</label>
+                                            <input type="text">
+                                        </div>
+                                    </div>
+
+                                    <button class="forms-btn" value="submit">Envoyer</button>
+                                </form>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
