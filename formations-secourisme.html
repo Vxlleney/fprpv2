@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link href="./assets/css/styles.css" rel="stylesheet" id="theme_change"/>
+        <link rel="icon" type="image/png" href="./assets/img/icon.png">
+    
+        <title>FPRP - Secourisme</title>
+        
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="gradient-nav"></div>
+
+            <div class="nav">
+                <img src="/assets/img/fprp.png" alt="">
+
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="devis.html">Devis</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+
+                <div class="nav-right">
+                    <!--<a class="btn-contact" href="">Me contacter</a>-->
+
+                    <div class="theme-toggle" id="theme-selector">
+                        <label for="checkbox" class="toggler">
+                            <input type="checkbox" name="" id="checkbox" onclick="toggleTheme()">
+                            <span class="ball"></span>
+                            <i class="uil uil-sun sun"></i>
+                            <i class="uil uil-moon moon"></i>
+                        </label>
+                    </div>
+                </div>
+
+                <i class="fas fa-stream hamburger" onclick="toggleMenu()"></i>
+            </div>
+
+            <div class="nav-menu">
+
+                <div class="nav-menu-return" onclick="toggleMenu()">
+                    <i class="uil uil-angle-right"></i>
+                </div>
+
+                <div class="nav-menu-btn">
+                    <a href="index.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-accueil.png" alt="">
+                            <h2>Accueil</h2>
+                        </div>
+                    </a>
+
+                    <a href="formations.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-services.png" alt="">
+                            <h2>Formations</h2>
+                        </div>
+                    </a>
+
+                    <a href="devis.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-about.png" alt="">
+                            <h2>Devis</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container-contact" onclick="toggleMenu()">
+                    <div class="contact-menu">
+                        <h2>Se former ?</h2>
+                        <p>Contactez-moi</p>
+                        <a href="devis.html">Me contacter</a>
+                    </div>
+                </div>
+
+                <div class="copyright-menu">
+                    <h2>FPRP  ©  2022</h2>
+
+                </div>
+
+                <div class="nav-theme-toggle">
+                    <label for="nav-checkbox" class="nav-toggler">
+                        <input type="checkbox" name="" id="nav-checkbox" onclick="toggleTheme()">
+                        <span class="nav-ball"></span>
+                        <i class="uil uil-moon nav-sun"></i>
+                        <i class="uil uil-sun nav-moon"></i>
+                    </label>
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-details-formations">
+            <div class="container-details-formations">
+
+                <h1>FORMATIONS <span>SECOURISME</span></h1>
+
+                <div class="line"></div>
+
+                <div class="content-details-formations">
+
+                    <div class="items-formations active" id="f1" onclick="toggleF1()">
+                        <h4>SST</h4>
+                    </div>
+
+                    <div class="items-formations" id="f2" onclick="toggleF2()">
+                        <h4>MAC SST</h4>
+                    </div>
+
+                    <div class="items-formations" id="f3" onclick="toggleF3()">
+                        <h4>PSPE</h4>
+                    </div>
+
+                    <div class="items-formations" id="f4" onclick="toggleF4()">
+                        <h4>DAE</h4>
+                    </div>
+
+                    <div class="items-formations" id="f5" onclick="toggleF5()">
+                        <h4>GQS</h4>
+                    </div>
+
+                </div>
+
+                <div class="sst active" id="c1">
+                    <h1>Sauveteur secouriste du travail (SST Initiale)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les salariés, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 4 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable d'intervenir efficacement face à une situation d'accident du travail en portant secours aux victimes</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable de contribuer à la prévention des risques professionnels dans le respect de l'organisation et des compétences spécifiques de l'entreprise</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situer son rôle de SST dans l'organisation des secours dans l'entreprise</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situer son rôle de SST dans l'organisation de la prévention de l'entreprise</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Caractériser des risques professionnels dans une situation de travail</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Participer à la maîtrise des risques professionnels par des actions de prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Protéger de façon adaptée</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Éxaminer la victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Garantir une alerte favorisant l'arrivée des secours au plus près de la victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Secourir la victime de manière appropriée</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation SST Initiale se réalise en 14 heures (2j)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient une attestation de formation et un certificat SST délivré par le réseau Assurance maladie Risques professionnels / INRS, valable au niveau national pour une durée de 24 mois</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-15 du Code du travail : "Un membre du personnel reçoit la formation de secouriste nécessaire pour donner les premiers secours en cas d’urgence"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Article R4224-16 du code du travail : "En l’absence d’infirmiers, ou lorsque leur nombre ne permet pas d’assurer une présence permanente, l’employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4141-1 à R4141-10 : Objet et organisation de l’information à la sécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pspe" id="c3">
+                    <h1>Premier secours secteur petite enfance (PSPE)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les salariés, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 2 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être en mesure d'identifier les règles de prévention et protocoles spécifiques de sa structure</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Savoir porter secours dans le secteur de la petite enfance tout en assurant sa propre sécurité et celle des autres</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être en mesure d'alerter ou de faire aleter et d'effectuer les gestes de premiers secours en attendant l'arrivée des secours adaptés</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La sinistralité du secteur petite enfance</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situer son rôle de SST dans l'organisation de la prévention de l'entreprise</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Caractériser des risques professionnels dans une situation de travail</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Participer à la maîtrise des risques professionnels par des actions de prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les 9 principes généraux de la prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Protéger de façon adaptée</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Éxaminer la victime au secteur de la petite enfance</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Garantir une alerte favorisant l'arrivée des secours au plus près de la victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Secourir la victime de manière appropriée</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situations spécifiques (crise d’asthme, crise convulsive, spasmes du sanglot)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation PSPE se réalise en 7 heures (1j)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient une attestation de formation (rappel tous les 24 mois recommandé)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-15 du Code du travail : "Un membre du personnel reçoit la formation de secouriste nécessaire pour donner les premiers secours en cas d’urgence"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Article R4224-16 du code du travail : "En l’absence d’infirmiers, ou lorsque leur nombre ne permet pas d’assurer une présence permanente, l’employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4141-1 à R4141-10 : Objet et organisation de l’information à la sécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="macsst" id="c2">
+                    <h1>MAC Sauveteur secouriste du travail (MAC SST)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les salariés, titulaires de la formation SST et à jour du renouvellement</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 4 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable d'intervenir efficacement face à une situation d'accident du travail en portant secours aux victimes</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable de contribuer à la prévention des risques professionnels dans le respect de l'organisation et des compétences spécifiques de l'entreprise</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situer son rôle de SST dans l'organisation des secours dans l'entreprise</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Situer son rôle de SST dans l'organisation de la prévention de l'entreprise</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Caractériser des risques professionnels dans une situation de travail</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Participer à la maîtrise des risques professionnels par des actions de prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Protéger de façon adaptée</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Éxaminer la victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Garantir une alerte favorisant l'arrivée des secours au plus près de la victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Secourir la victime de manière appropriée</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation MAC SST se réalise en 7 heures (1j)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient une attestation de formation et un certificat SST délivré par le réseau Assurance maladie Risques professionnels / INRS, valable au niveau national pour une durée de 24 mois</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-15 du Code du travail : "Un membre du personnel reçoit la formation de secouriste nécessaire pour donner les premiers secours en cas d’urgence"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Article R4224-16 du code du travail : "En l’absence d’infirmiers, ou lorsque leur nombre ne permet pas d’assurer une présence permanente, l’employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4141-1 à R4141-10 : Objet et organisation de l’information à la sécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dae" id="c4">
+                    <h1>Utilisation d'un défibrilateur externe (DAE)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les salariés, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 4 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable d'intervenir efficacement pour donner l'alerte et prendre en charge une personne en arrêt cardio-respiratoire avant l'arrivée des secours</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Connaître les numéros de secours</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Qui prévenir dans mon établissement</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Contrôler la conscience et la respiration</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Libération des voies aériennes</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Mettre en position latérale de sécurité une victime inconsciente</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Compressions thoraciques sur mannequin adulte, enfant et nourrisson</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Présentation et informations d'utilisation d'un défibrilateur sur place</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Mise en place d'un défibrilateur d'entraînement sur mannequin associé aux compressions thoraciques</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation DAE se réalise en 2 heures</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient une attestation de formation (rappel tous les 24 mois recommandé)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur Sapeur-Pompier et certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Arrêté du 30 Juin 2017 : "Dans le cadre de la sensibilisation de la population aux gestes de premiers secours, il est mis en place une sensibilisation aux « gestes qui sauvent » permettant l’apprentissage de la prise en charge d’une victime qui présente un arrêt cardiaque et à l’utilisation d’un défibrillateur automatisé externe"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Loi n°2020-840 du 03 Juillet 2020 : "Visant à créer le statut de citoyen sauveteur, lutte contre l’arrêt cardiaque et sensibiliser aux gestes qui sauvent, a notamment créé dans la partie code du travail relatif au départ en retraite un nouvel article (CDT art. L1237-9-1)"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Décret du 19 avril 2021 : "Venant fixer le contenu, le champ d’application et les modalités de mise en œuvre de ces dispositions"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gqs" id="c5">
+                    <h1>Initiation aux gestes qui sauvent (GQS)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les salariés, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 1 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable d'intervenir efficacement pour donner l'alerte et effectuer les gestes qui sauvent, avant l'arrivée des secours</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Connaître les numéros de secours</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Qui prévenir dans mon établissement</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Analyser la situation</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Compressions manuelles</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Poser un garot</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Identifier un étouffement partiel ou brutal</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Réaliser des techniques de désobstruction</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Contrôler la conscience et la respiration</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Libération des voies aériennes</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Mettre en position latérale de sécurité une victime inconsciente</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Compressions thoraciques sur mannequin adulte, enfant et nourrisson</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Présentation et informations d'utilisation si défibrilateur sur place</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Mise en place d'un défibrilateur d'entraînement sur mannequin associé aux compressions thoraciques</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation GQS se réalise en 4 heures</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p> Il est mis en place une sensibilisation aux « gestes qui sauvent » permettant l’apprentissage de la prise en charge d’une victime qui présente un arrêt cardiaque et à l’utilisation d’un défibrillateur automatisé externe pour tous citoyens</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="btn-selector-formations active" id="icon-selector-formations" onclick="listSelector()">
+            <p>Formations</p>
+            <i class="uil uil-angle-up"></i>
+        </section>
+
+        <section class="menu-selector-formations" id="selector-formations">
+
+            <div class="btn-menu-selector active" id="m1" onclick="toggleF1()">
+                <h1>SST</h1>
+            </div>
+
+            <div class="btn-menu-selector" id="m2" onclick="toggleF2()">
+                <h1>MAC SST</h1>
+            </div>
+
+            <div class="btn-menu-selector" id="m3" onclick="toggleF3()">
+                <h1>PSPE</h1>
+            </div>
+
+            <div class="btn-menu-selector" id="m4" onclick="toggleF4()">
+                <h1>DAE</h1>
+            </div>
+
+            <div class="btn-menu-selector" id="m5" onclick="toggleF5()">
+                <h1>GQS</h1>
+            </div>
+
+            <div class="line-menu-selector"></div>
+
+            <div class="btn-close-selector" onclick="menuSelector()">
+                <h1>Fermer</h1>
+            </div>
+
+        </section>
+
+        <footer class="bg-footer">
+            <div class="container-footer">
+
+                <div class="name-footer">
+                    <img src="./assets/img/logo.png" alt="">
+                    <span>Formation et prévention des Risques Professionnels</span>
+                </div>
+
+                <div class="btn-footer">
+                    <div class="nav-footer">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="formations.html">Formations</a></li>
+                            <li><a href="devis.html">Devis</a></li>
+                            <li><a href="">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contacts-footer">
+                    <a href="https://www.facebook.com/FPRP-100253288775794">
+                        <img src="./assets/img/icon-linkedin.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/FPRP-100253288775794">
+                        <img src="./assets/img/icon-facebook.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <span>FPRP <br> 2022 ©</span>
+            </div>
+
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup-icon"></i>
+        </a>
+        
+    </body>
+
+    <script src="https://kit.fontawesome.com/685bff160c.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js" crossorigin="anonymous"></script>
+</html> 

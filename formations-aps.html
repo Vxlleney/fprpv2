@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <link href="./assets/css/styles.css" rel="stylesheet" id="theme_change"/>
+        <link rel="icon" type="image/png" href="./assets/img/icon.png">
+    
+        <title>FPRP - Aide Soins Domicile / Entreprise</title>
+        
+    </head>
+
+    <body>
+
+        <nav>
+            <div class="gradient-nav"></div>
+
+            <div class="nav">
+                <img src="/assets/img/fprp.png" alt="">
+
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="formations.html">Formations</a></li>
+                    <li><a href="devis.html">Devis</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+
+                <div class="nav-right">
+                    <!--<a class="btn-contact" href="">Me contacter</a>-->
+
+                    <div class="theme-toggle" id="theme-selector">
+                        <label for="checkbox" class="toggler">
+                            <input type="checkbox" name="" id="checkbox" onclick="toggleTheme()">
+                            <span class="ball"></span>
+                            <i class="uil uil-sun sun"></i>
+                            <i class="uil uil-moon moon"></i>
+                        </label>
+                    </div>
+                </div>
+
+                <i class="fas fa-stream hamburger" onclick="toggleMenu()"></i>
+            </div>
+
+            <div class="nav-menu">
+
+                <div class="nav-menu-return" onclick="toggleMenu()">
+                    <i class="uil uil-angle-right"></i>
+                </div>
+
+                <div class="nav-menu-btn">
+                    <a href="index.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-accueil.png" alt="">
+                            <h2>Accueil</h2>
+                        </div>
+                    </a>
+
+                    <a href="formations.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-services.png" alt="">
+                            <h2>Formations</h2>
+                        </div>
+                    </a>
+
+                    <a href="devis.html" onclick="toggleMenu()">
+                        <div class="btn-menu">
+                            <img src="./assets/img/icon-about.png" alt="">
+                            <h2>Devis</h2>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="container-contact" onclick="toggleMenu()">
+                    <div class="contact-menu">
+                        <h2>Se former ?</h2>
+                        <p>Contactez-moi</p>
+                        <a href="devis.html">Me contacter</a>
+                    </div>
+                </div>
+
+                <div class="copyright-menu">
+                    <h2>FPRP  ©  2022</h2>
+
+                </div>
+
+                <div class="nav-theme-toggle">
+                    <label for="nav-checkbox" class="nav-toggler">
+                        <input type="checkbox" name="" id="nav-checkbox" onclick="toggleTheme()">
+                        <span class="nav-ball"></span>
+                        <i class="uil uil-moon nav-sun"></i>
+                        <i class="uil uil-sun nav-moon"></i>
+                    </label>
+                </div>
+            </div>
+        </nav>
+
+        <section class="bg-details-formations">
+            <div class="container-details-formations">
+
+                <h1>FORMATIONS <span>INCENDIE</span></h1>
+
+                <div class="line"></div>
+
+                <div class="content-details-formations">
+                    <div class="items-formations active" id="f1" onclick="toggleF1()">
+                        <h4>APS ASD</h4>
+                    </div>
+
+                    <div class="items-formations" id="f2" onclick="toggleF2()">
+                        <h4>MAC APS ASD</h4>
+                    </div>
+
+                    <div class="null" style="display: none;" id="f3"></div>
+                    <div class="null" style="display: none;" id="f4"></div>
+                    <div class="null" style="display: none;" id="f5"></div>
+                </div>
+
+                <div class="apsasd active" id="c1">
+                    <h1>Acteur prévention secours, Aide soin domicile (APS ASD Initiale)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les intervenants à domicile, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 4 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Observer et analyser toute situation de travail à domicile, repérer les situations dangereuses et proposer des mesures de prévention adaptées pour se prémunir des dangers</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Maîtriser les conduites à tenir et les gestes de premiers secours en situation d’urgence (mettre en sécurité la personne accidentée, réagir face à un saignement ou un étouffement, utiliser un défibrillateur et pratiquer un massage cardiaque…)</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Mettre en œuvre une démarche permettant tout accompagnement de la mobilité de la personne aidée, en prenant soin de l’autre et de soi</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Savoir à qui et comment remonter ses suggestions d’amélioration au sein de la structure et, en situation d’urgence (accident, malaise…), alerter selon l’organisation interne mise en place</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>L’intérêt de la prévention dans le milieu d’intervention à domicile</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les enjeux humains, économiques et réglementaires pour l’établissement, le salarié et le bénéficiaire de la prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les acteurs de la prévention et l’organisation de la prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les atteintes de l’appareil locomoteur et les différents facteurs de risques</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les principes de base de sécurité physique et d’économie d’effort dans la manutention manuelle des personnes à mobilité réduite</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La remontée des informations, aspect réglementaire</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les différentes techniques de manutention des personnes, approche des différentes aides techniques et de leur utilisation</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Conduite à tenir face à une victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le cadre réglementaire</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les dispositifs de coupure des énergies et des fluides</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les dispositions en cas d’incendie</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les outils de communication adaptés</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation APS ASD se réalise en 21 heures (3j)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient le certificat APS ASD ALM délivré par le réseau Assurance maladie Risques professionnels / INRS, valable au niveau national pour une durée de 24 mois et donne équivalence au certificat SST de sauveteur secouriste du travail</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-15 du Code du travail : "Un membre du personnel reçoit la formation de secouriste nécessaire pour donner les premiers secours en cas d’urgence..."</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-16 du code du travail : "En l’absence d’infirmiers, ou lorsque leur nombre ne permet pas d’assurer une présence permanente, l’employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades…"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4141-1 à R4141-10 : Objet et organisation de l’information à la sécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="macapsasd" id="c2">
+                    <h1>MAC Acteur prévention secours, Aide soin domicile (MAC APS ASD)</h1>
+                    <div class="text-presentation">
+                        <h2>Qui peut réaliser cette formation ?</h2>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Tous les intervenants à domicile, sans prérequis</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Groupe de 4 à 10 personnes</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>À quoi consiste cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Être capable d'utiliser un extincteur en toute sécurité avec un apport théorique et pratique sur le feu et les moyens d'extinctions</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Savoir comment agir face à une alarme incendie et donner l'alerte aux secours adaptés</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Programme de la formation</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>L’intérêt de la prévention dans le milieu d’intervention à domicile</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les enjeux humains, économiques et réglementaires pour l’établissement, le salarié et le bénéficiaire de la prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les acteurs de la prévention et l’organisation de la prévention</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les atteintes de l’appareil locomoteur et les différents facteurs de risques</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les principes de base de sécurité physique et d’économie d’effort dans la manutention manuelle des personnes à mobilité réduite</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La remontée des informations, aspect réglementaire</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les différentes techniques de manutention des personnes, approche des différentes aides techniques et de leur utilisation</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Conduite à tenir face à une victime</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le cadre réglementaire</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les dispositifs de coupure des énergies et des fluides</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les dispositions en cas d’incendie</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Les outils de communication adaptés</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Durée de la formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>La formation MAC APS ASD se réalise en 14 heures (2j)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qu'obtient le stagiaire avec cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Le stagiaire obtient le certificat APS ASD ALM délivré par le réseau Assurance maladie Risques professionnels / INRS, valable au niveau national pour une durée de 24 mois et donne équivalence au certificat SST de sauveteur secouriste du travail
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Qui réalise cette formation ?</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Cette formation sera animée par un formateur certifié INRS</p>
+                        </div>
+                    </div>
+
+                    <div class="text-presentation">
+                        <h2>Cadre réglementaire</h2>
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-15 du Code du travail : "Un membre du personnel reçoit la formation de secouriste nécessaire pour donner les premiers secours en cas d’urgence..."</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4224-16 du code du travail : "En l’absence d’infirmiers, ou lorsque leur nombre ne permet pas d’assurer une présence permanente, l’employeur prend, après avis du médecin du travail, les mesures nécessaires pour assurer les premiers secours aux accidentés et aux malades…"</p>
+                        </div>
+
+                        <div class="ptext">
+                            <span>⬪</span>
+                            <p>Article R4141-1 à R4141-10 : Objet et organisation de l’information à la sécurité</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="null" style="display: none;" id="c3"></div>
+                <div class="null" style="display: none;" id="c4"></div>
+                <div class="null" style="display: none;" id="c5"></div>
+            </div>
+        </section>
+
+        <section class="btn-selector-formations active" id="icon-selector-formations" onclick="listSelector()">
+            <p>Formations</p>
+            <i class="uil uil-angle-up"></i>
+        </section>
+
+        <section class="menu-selector-formations" id="selector-formations">
+
+            <div class="btn-menu-selector active" id="m1" onclick="toggleF1()">
+                <h1>APS ASD</h1>
+            </div>
+
+            <div class="btn-menu-selector" id="m2" onclick="toggleF2()">
+                <h1>MAC APS ASD</h1>
+            </div>
+
+            <div class="null" style="display: none;" id="m3"></div>
+            <div class="null" style="display: none;" id="m4"></div>
+            <div class="null" style="display: none;" id="m5"></div>
+
+            <div class="line-menu-selector"></div>
+
+            <div class="btn-close-selector" onclick="menuSelector()">
+                <h1>Fermer</h1>
+            </div>
+
+        </section>
+
+        <footer class="bg-footer">
+            <div class="container-footer">
+
+                <div class="name-footer">
+                    <img src="./assets/img/logo.png" alt="">
+                    <span>Formation et prévention des Risques Professionnels</span>
+                </div>
+
+                <div class="btn-footer">
+                    <div class="nav-footer">
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="formations.html">Formations</a></li>
+                            <li><a href="devis.html">Devis</a></li>
+                            <li><a href="">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contacts-footer">
+                    <a href="https://www.facebook.com/FPRP-100253288775794">
+                        <img src="./assets/img/icon-linkedin.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/FPRP-100253288775794">
+                        <img src="./assets/img/icon-facebook.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                <span>FPRP <br> 2022 ©</span>
+            </div>
+
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup-icon"></i>
+        </a>
+        
+    </body>
+
+    <script src="https://kit.fontawesome.com/685bff160c.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js" crossorigin="anonymous"></script>
+</html> 
+            
