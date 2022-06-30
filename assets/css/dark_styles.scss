@@ -1570,7 +1570,7 @@ body{
 
                 .items-formations{
                     cursor: pointer;
-                    width: 150px;
+                    width: 180px;
                     padding: 5px 20px;
                     border-radius: 5px;
                     transition: 0.3s ease-out;
@@ -1602,7 +1602,11 @@ body{
             .epi.active,
             .me.active,
             .apsasd.active, 
-            .macapsasd.active{
+            .macapsasd.active,
+            .h0b0.active,
+            .reh0b0.active,
+            .bsbe.active,
+            .rebsbe.active{
                 display: initial;
             } 
 
@@ -1614,7 +1618,11 @@ body{
             .epi, 
             .me,
             .apsasd, 
-            .macapsasd{
+            .macapsasd,
+            .h0b0,
+            .reh0b0,
+            .bsbe,
+            .rebsbe{
                 display: none;
 
 
@@ -1674,10 +1682,10 @@ body{
         gap: 5px;
         bottom: 0;
         left: 0;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
         margin-left: 20px;
         border-radius: 10px;
-        height: 40px;
+        height: 45px;
         width: 120px;
         background-color: $color-card;
         color: $color-5;
@@ -1719,7 +1727,7 @@ body{
         margin: 0 auto !important;
 
         gap: 5px;
-        bottom: 20px;
+        bottom: 40px;
         left: 5%;
         border-radius: 10px;
         height: auto;

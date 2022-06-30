@@ -1887,7 +1887,7 @@ body .bg-details-formations .container-details-formations .content-details-forma
 
 body .bg-details-formations .container-details-formations .content-details-formations .items-formations {
   cursor: pointer;
-  width: 150px;
+  width: 180px;
   padding: 5px 20px;
   border-radius: 5px;
   -webkit-transition: 0.3s ease-out;
@@ -1921,7 +1921,11 @@ body .bg-details-formations .container-details-formations .gqs.active,
 body .bg-details-formations .container-details-formations .epi.active,
 body .bg-details-formations .container-details-formations .me.active,
 body .bg-details-formations .container-details-formations .apsasd.active,
-body .bg-details-formations .container-details-formations .macapsasd.active {
+body .bg-details-formations .container-details-formations .macapsasd.active,
+body .bg-details-formations .container-details-formations .h0b0.active,
+body .bg-details-formations .container-details-formations .reh0b0.active,
+body .bg-details-formations .container-details-formations .bsbe.active,
+body .bg-details-formations .container-details-formations .rebsbe.active {
   display: initial;
 }
 
@@ -1933,7 +1937,11 @@ body .bg-details-formations .container-details-formations .gqs,
 body .bg-details-formations .container-details-formations .epi,
 body .bg-details-formations .container-details-formations .me,
 body .bg-details-formations .container-details-formations .apsasd,
-body .bg-details-formations .container-details-formations .macapsasd {
+body .bg-details-formations .container-details-formations .macapsasd,
+body .bg-details-formations .container-details-formations .h0b0,
+body .bg-details-formations .container-details-formations .reh0b0,
+body .bg-details-formations .container-details-formations .bsbe,
+body .bg-details-formations .container-details-formations .rebsbe {
   display: none;
 }
 
@@ -1945,7 +1953,11 @@ body .bg-details-formations .container-details-formations .gqs h1,
 body .bg-details-formations .container-details-formations .epi h1,
 body .bg-details-formations .container-details-formations .me h1,
 body .bg-details-formations .container-details-formations .apsasd h1,
-body .bg-details-formations .container-details-formations .macapsasd h1 {
+body .bg-details-formations .container-details-formations .macapsasd h1,
+body .bg-details-formations .container-details-formations .h0b0 h1,
+body .bg-details-formations .container-details-formations .reh0b0 h1,
+body .bg-details-formations .container-details-formations .bsbe h1,
+body .bg-details-formations .container-details-formations .rebsbe h1 {
   margin-top: 50px;
   font-size: 1.5rem;
   font-weight: 600;
@@ -1961,7 +1973,11 @@ body .bg-details-formations .container-details-formations .gqs .text-presentatio
 body .bg-details-formations .container-details-formations .epi .text-presentation,
 body .bg-details-formations .container-details-formations .me .text-presentation,
 body .bg-details-formations .container-details-formations .apsasd .text-presentation,
-body .bg-details-formations .container-details-formations .macapsasd .text-presentation {
+body .bg-details-formations .container-details-formations .macapsasd .text-presentation,
+body .bg-details-formations .container-details-formations .h0b0 .text-presentation,
+body .bg-details-formations .container-details-formations .reh0b0 .text-presentation,
+body .bg-details-formations .container-details-formations .bsbe .text-presentation,
+body .bg-details-formations .container-details-formations .rebsbe .text-presentation {
   width: 100%;
   margin-bottom: 30px;
 }
@@ -1974,7 +1990,11 @@ body .bg-details-formations .container-details-formations .gqs .text-presentatio
 body .bg-details-formations .container-details-formations .epi .text-presentation h2,
 body .bg-details-formations .container-details-formations .me .text-presentation h2,
 body .bg-details-formations .container-details-formations .apsasd .text-presentation h2,
-body .bg-details-formations .container-details-formations .macapsasd .text-presentation h2 {
+body .bg-details-formations .container-details-formations .macapsasd .text-presentation h2,
+body .bg-details-formations .container-details-formations .h0b0 .text-presentation h2,
+body .bg-details-formations .container-details-formations .reh0b0 .text-presentation h2,
+body .bg-details-formations .container-details-formations .bsbe .text-presentation h2,
+body .bg-details-formations .container-details-formations .rebsbe .text-presentation h2 {
   font-size: 1.2rem;
   font-weight: 500;
   color: #e27e4f;
@@ -1988,7 +2008,11 @@ body .bg-details-formations .container-details-formations .gqs .text-presentatio
 body .bg-details-formations .container-details-formations .epi .text-presentation .ptext,
 body .bg-details-formations .container-details-formations .me .text-presentation .ptext,
 body .bg-details-formations .container-details-formations .apsasd .text-presentation .ptext,
-body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext {
+body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext,
+body .bg-details-formations .container-details-formations .h0b0 .text-presentation .ptext,
+body .bg-details-formations .container-details-formations .reh0b0 .text-presentation .ptext,
+body .bg-details-formations .container-details-formations .bsbe .text-presentation .ptext,
+body .bg-details-formations .container-details-formations .rebsbe .text-presentation .ptext {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2003,7 +2027,11 @@ body .bg-details-formations .container-details-formations .gqs .text-presentatio
 body .bg-details-formations .container-details-formations .epi .text-presentation .ptext p,
 body .bg-details-formations .container-details-formations .me .text-presentation .ptext p,
 body .bg-details-formations .container-details-formations .apsasd .text-presentation .ptext p,
-body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext p {
+body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext p,
+body .bg-details-formations .container-details-formations .h0b0 .text-presentation .ptext p,
+body .bg-details-formations .container-details-formations .reh0b0 .text-presentation .ptext p,
+body .bg-details-formations .container-details-formations .bsbe .text-presentation .ptext p,
+body .bg-details-formations .container-details-formations .rebsbe .text-presentation .ptext p {
   font-size: 1.1rem;
   font-weight: 400;
   color: #ebebeb;
@@ -2017,7 +2045,11 @@ body .bg-details-formations .container-details-formations .gqs .text-presentatio
 body .bg-details-formations .container-details-formations .epi .text-presentation .ptext span,
 body .bg-details-formations .container-details-formations .me .text-presentation .ptext span,
 body .bg-details-formations .container-details-formations .apsasd .text-presentation .ptext span,
-body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext span {
+body .bg-details-formations .container-details-formations .macapsasd .text-presentation .ptext span,
+body .bg-details-formations .container-details-formations .h0b0 .text-presentation .ptext span,
+body .bg-details-formations .container-details-formations .reh0b0 .text-presentation .ptext span,
+body .bg-details-formations .container-details-formations .bsbe .text-presentation .ptext span,
+body .bg-details-formations .container-details-formations .rebsbe .text-presentation .ptext span {
   font-size: 1rem;
   color: #e27e4f;
   font-weight: 600;
@@ -2041,10 +2073,10 @@ body .btn-selector-formations {
   gap: 5px;
   bottom: 0;
   left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-left: 20px;
   border-radius: 10px;
-  height: 40px;
+  height: 45px;
   width: 120px;
   background-color: #242941;
   color: #ebebeb;
@@ -2100,7 +2132,7 @@ body .menu-selector-formations {
           align-items: center;
   margin: 0 auto !important;
   gap: 5px;
-  bottom: 20px;
+  bottom: 40px;
   left: 5%;
   border-radius: 10px;
   height: auto;
